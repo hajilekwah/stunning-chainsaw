@@ -1,2 +1,7 @@
-const app = document.getElementById('app');
-app.innerHTML = "Hello ES6!"
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+ReactDOM.render(
+    <p>Hello React!</p>,
+    document.getElementById('app')
+)
